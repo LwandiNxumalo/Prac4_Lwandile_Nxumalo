@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Prac4_Lwandile_Nxumalo
 {
-    public partial class Form1 : Form
+    public partial class frmCalculator : Form
     {
-        public Form1()
+        public frmCalculator()
         {
             InitializeComponent();
         }
