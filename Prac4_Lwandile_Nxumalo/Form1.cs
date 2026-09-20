@@ -15,6 +15,25 @@ namespace Prac4_Lwandile_Nxumalo
         public frmCalculator()
         {
             InitializeComponent();
+            txtRadiusInput.Focus();
+        }
+
+        private void btnCalculate_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            txtRadiusInput.Clear();
+            lblAreaOutput.Text = "";
+            lblVolumeOutput.Text = "";
+            lblCircumfOutput.Text = "";
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

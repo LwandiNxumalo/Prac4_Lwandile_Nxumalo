@@ -1,0 +1,10 @@
+C:\Users\User\Prac4_Lwandile_Nxumalo\Prac4_Lwandile_Nxumalo\bin\Debug\Prac4_Lwandile_Nxumalo.exe.config
+C:\Users\User\Prac4_Lwandile_Nxumalo\Prac4_Lwandile_Nxumalo\bin\Debug\Prac4_Lwandile_Nxumalo.exe
+C:\Users\User\Prac4_Lwandile_Nxumalo\Prac4_Lwandile_Nxumalo\bin\Debug\Prac4_Lwandile_Nxumalo.pdb
+C:\Users\User\Prac4_Lwandile_Nxumalo\Prac4_Lwandile_Nxumalo\obj\Debug\Prac4_Lwandile_Nxumalo.csproj.AssemblyReference.cache
+C:\Users\User\Prac4_Lwandile_Nxumalo\Prac4_Lwandile_Nxumalo\obj\Debug\Prac4_Lwandile_Nxumalo.frmCalculator.resources
+C:\Users\User\Prac4_Lwandile_Nxumalo\Prac4_Lwandile_Nxumalo\obj\Debug\Prac4_Lwandile_Nxumalo.Properties.Resources.resources
+C:\Users\User\Prac4_Lwandile_Nxumalo\Prac4_Lwandile_Nxumalo\obj\Debug\Prac4_Lwandile_Nxumalo.csproj.GenerateResource.cache
+C:\Users\User\Prac4_Lwandile_Nxumalo\Prac4_Lwandile_Nxumalo\obj\Debug\Prac4_Lwandile_Nxumalo.csproj.CoreCompileInputs.cache
+C:\Users\User\Prac4_Lwandile_Nxumalo\Prac4_Lwandile_Nxumalo\obj\Debug\Prac4_Lwandile_Nxumalo.exe
+C:\Users\User\Prac4_Lwandile_Nxumalo\Prac4_Lwandile_Nxumalo\obj\Debug\Prac4_Lwandile_Nxumalo.pdb
