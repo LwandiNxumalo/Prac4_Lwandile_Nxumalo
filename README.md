@@ -3,7 +3,7 @@ Practical 4  Scenario: You are creating an application to help users calculate t
 
 Instructions: Create a Windows form application (.NET Framework).
 Form Design: 
-\t\n• The main form of the application should display the necessary controls and GUI fine 
+<br>• The main form of the application should display the necessary controls and GUI fine 
 tuning as shown in the output example provided, as well as the instructions below. 
 • Form colour must be set to a system colour: ActiveCaption  
 • GroupBoxes colour must be set to a system colour: ActiveBorder  
