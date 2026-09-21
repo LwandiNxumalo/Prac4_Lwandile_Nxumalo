@@ -30,19 +30,19 @@ namespace Prac4_Lwandile_Nxumalo
         private void InitializeComponent()
         {
             this.gbxInput = new System.Windows.Forms.GroupBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.txtRadiusInput = new System.Windows.Forms.TextBox();
             this.lblRadius = new System.Windows.Forms.Label();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.lblCircumfOutput = new System.Windows.Forms.Label();
+            this.lblAreaOutput = new System.Windows.Forms.Label();
             this.lblArea = new System.Windows.Forms.Label();
             this.lblCircumf = new System.Windows.Forms.Label();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.lblVolumeOutput = new System.Windows.Forms.Label();
             this.lblVolume = new System.Windows.Forms.Label();
             this.btnCalculate = new System.Windows.Forms.Button();
             this.btnClear = new System.Windows.Forms.Button();
             this.btnExit = new System.Windows.Forms.Button();
-            this.lblVolumeOutput = new System.Windows.Forms.Label();
-            this.lblAreaOutput = new System.Windows.Forms.Label();
-            this.lblCircumfOutput = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.gbxInput.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -51,7 +51,7 @@ namespace Prac4_Lwandile_Nxumalo
             // gbxInput
             // 
             this.gbxInput.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.gbxInput.Controls.Add(this.textBox1);
+            this.gbxInput.Controls.Add(this.txtRadiusInput);
             this.gbxInput.Controls.Add(this.lblRadius);
             this.gbxInput.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gbxInput.Location = new System.Drawing.Point(89, 40);
@@ -60,6 +60,24 @@ namespace Prac4_Lwandile_Nxumalo
             this.gbxInput.TabIndex = 0;
             this.gbxInput.TabStop = false;
             this.gbxInput.Text = "Input";
+            // 
+            // txtRadiusInput
+            // 
+            this.txtRadiusInput.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtRadiusInput.Location = new System.Drawing.Point(196, 49);
+            this.txtRadiusInput.Name = "txtRadiusInput";
+            this.txtRadiusInput.Size = new System.Drawing.Size(100, 24);
+            this.txtRadiusInput.TabIndex = 1;
+            // 
+            // lblRadius
+            // 
+            this.lblRadius.AutoSize = true;
+            this.lblRadius.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRadius.Location = new System.Drawing.Point(129, 57);
+            this.lblRadius.Name = "lblRadius";
+            this.lblRadius.Size = new System.Drawing.Size(51, 16);
+            this.lblRadius.TabIndex = 0;
+            this.lblRadius.Text = "Radius";
             // 
             // groupBox2
             // 
@@ -76,28 +94,21 @@ namespace Prac4_Lwandile_Nxumalo
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Circle Calculations";
             // 
-            // groupBox3
+            // lblCircumfOutput
             // 
-            this.groupBox3.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.groupBox3.Controls.Add(this.lblVolumeOutput);
-            this.groupBox3.Controls.Add(this.lblVolume);
-            this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox3.Location = new System.Drawing.Point(371, 196);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(207, 118);
-            this.groupBox3.TabIndex = 2;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Sphere Calculations";
+            this.lblCircumfOutput.AutoSize = true;
+            this.lblCircumfOutput.Location = new System.Drawing.Point(137, 71);
+            this.lblCircumfOutput.Name = "lblCircumfOutput";
+            this.lblCircumfOutput.Size = new System.Drawing.Size(0, 18);
+            this.lblCircumfOutput.TabIndex = 2;
             // 
-            // lblRadius
+            // lblAreaOutput
             // 
-            this.lblRadius.AutoSize = true;
-            this.lblRadius.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRadius.Location = new System.Drawing.Point(129, 57);
-            this.lblRadius.Name = "lblRadius";
-            this.lblRadius.Size = new System.Drawing.Size(51, 16);
-            this.lblRadius.TabIndex = 0;
-            this.lblRadius.Text = "Radius";
+            this.lblAreaOutput.AutoSize = true;
+            this.lblAreaOutput.Location = new System.Drawing.Point(68, 34);
+            this.lblAreaOutput.Name = "lblAreaOutput";
+            this.lblAreaOutput.Size = new System.Drawing.Size(0, 18);
+            this.lblAreaOutput.TabIndex = 1;
             // 
             // lblArea
             // 
@@ -117,10 +128,31 @@ namespace Prac4_Lwandile_Nxumalo
             this.lblCircumf.TabIndex = 0;
             this.lblCircumf.Text = "Circumference:";
             // 
+            // groupBox3
+            // 
+            this.groupBox3.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.groupBox3.Controls.Add(this.lblVolumeOutput);
+            this.groupBox3.Controls.Add(this.lblVolume);
+            this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox3.Location = new System.Drawing.Point(371, 196);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(207, 118);
+            this.groupBox3.TabIndex = 2;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Sphere Calculations";
+            // 
+            // lblVolumeOutput
+            // 
+            this.lblVolumeOutput.AutoSize = true;
+            this.lblVolumeOutput.Location = new System.Drawing.Point(92, 34);
+            this.lblVolumeOutput.Name = "lblVolumeOutput";
+            this.lblVolumeOutput.Size = new System.Drawing.Size(0, 18);
+            this.lblVolumeOutput.TabIndex = 2;
+            // 
             // lblVolume
             // 
             this.lblVolume.AutoSize = true;
-            this.lblVolume.Location = new System.Drawing.Point(16, 34);
+            this.lblVolume.Location = new System.Drawing.Point(24, 34);
             this.lblVolume.Name = "lblVolume";
             this.lblVolume.Size = new System.Drawing.Size(62, 18);
             this.lblVolume.TabIndex = 1;
@@ -134,6 +166,7 @@ namespace Prac4_Lwandile_Nxumalo
             this.btnCalculate.TabIndex = 2;
             this.btnCalculate.Text = "&Calculate";
             this.btnCalculate.UseVisualStyleBackColor = true;
+            this.btnCalculate.Click += new System.EventHandler(this.btnCalculate_Click);
             // 
             // btnClear
             // 
@@ -143,6 +176,7 @@ namespace Prac4_Lwandile_Nxumalo
             this.btnClear.TabIndex = 3;
             this.btnClear.Text = "C&lear";
             this.btnClear.UseVisualStyleBackColor = true;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
             // btnExit
             // 
@@ -152,38 +186,7 @@ namespace Prac4_Lwandile_Nxumalo
             this.btnExit.TabIndex = 4;
             this.btnExit.Text = "E&xit";
             this.btnExit.UseVisualStyleBackColor = true;
-            // 
-            // lblVolumeOutput
-            // 
-            this.lblVolumeOutput.AutoSize = true;
-            this.lblVolumeOutput.Location = new System.Drawing.Point(84, 34);
-            this.lblVolumeOutput.Name = "lblVolumeOutput";
-            this.lblVolumeOutput.Size = new System.Drawing.Size(0, 18);
-            this.lblVolumeOutput.TabIndex = 2;
-            // 
-            // lblAreaOutput
-            // 
-            this.lblAreaOutput.AutoSize = true;
-            this.lblAreaOutput.Location = new System.Drawing.Point(68, 34);
-            this.lblAreaOutput.Name = "lblAreaOutput";
-            this.lblAreaOutput.Size = new System.Drawing.Size(0, 18);
-            this.lblAreaOutput.TabIndex = 1;
-            // 
-            // lblCircumfOutput
-            // 
-            this.lblCircumfOutput.AutoSize = true;
-            this.lblCircumfOutput.Location = new System.Drawing.Point(137, 71);
-            this.lblCircumfOutput.Name = "lblCircumfOutput";
-            this.lblCircumfOutput.Size = new System.Drawing.Size(0, 18);
-            this.lblCircumfOutput.TabIndex = 2;
-            // 
-            // textBox1
-            // 
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox1.Location = new System.Drawing.Point(196, 49);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 24);
-            this.textBox1.TabIndex = 1;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // frmCalculator
             // 
@@ -214,7 +217,7 @@ namespace Prac4_Lwandile_Nxumalo
         private System.Windows.Forms.GroupBox gbxInput;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtRadiusInput;
         private System.Windows.Forms.Label lblRadius;
         private System.Windows.Forms.Label lblCircumfOutput;
         private System.Windows.Forms.Label lblAreaOutput;
