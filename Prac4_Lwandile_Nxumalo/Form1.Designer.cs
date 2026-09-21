@@ -144,7 +144,7 @@ namespace Prac4_Lwandile_Nxumalo
             // lblVolumeOutput
             // 
             this.lblVolumeOutput.AutoSize = true;
-            this.lblVolumeOutput.Location = new System.Drawing.Point(84, 34);
+            this.lblVolumeOutput.Location = new System.Drawing.Point(92, 34);
             this.lblVolumeOutput.Name = "lblVolumeOutput";
             this.lblVolumeOutput.Size = new System.Drawing.Size(0, 18);
             this.lblVolumeOutput.TabIndex = 2;
@@ -152,7 +152,7 @@ namespace Prac4_Lwandile_Nxumalo
             // lblVolume
             // 
             this.lblVolume.AutoSize = true;
-            this.lblVolume.Location = new System.Drawing.Point(16, 34);
+            this.lblVolume.Location = new System.Drawing.Point(24, 34);
             this.lblVolume.Name = "lblVolume";
             this.lblVolume.Size = new System.Drawing.Size(62, 18);
             this.lblVolume.TabIndex = 1;
